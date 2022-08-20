@@ -1,0 +1,36 @@
+.green-bg-img,
+.pink-bg-img,
+.blue-bg-img ,.cover{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.body-tells,
+.what-did-u-take,
+.feel,
+.green-calender,
+.greenblue-calender,
+.red-calender,
+.gray-calender {
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.red-calender::placeholder,
+.gray-calender::placeholder,
+.greenblue-calender::placeholder,
+.green-calender::placeholder {
+  color: #464646;
+}
+
+.body-tells::placeholder,
+.what-did-u-take::placeholder,
+.feel::placeholder {
+  padding-left: 0.5rem;
+  color: #acacac;
+}
+
+.how-are-u-card,
+.btn-see-more {
+  width: 21.5rem;
+}

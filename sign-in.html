@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./fontsSans/Noto_Sans.zip" />
+    <link rel="stylesheet" href="./styles/resetutils.css" />
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./bootstrap.css" />
+    <title>BabyApp</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row ps-3">
+        <div class="col-12 px-0">
+          <section
+            class="hello-welcome-note-and-pic d-flex justify-content-between"
+          >
+            <p
+              class="welcome-note fs-24 light-blue-green-color mt-8 fw-semibold mb-5"
+            >
+              Hello, Welcome!
+            </p>
+            <img class="welcome-pic mb-3" src="./images/babypic.png" alt="baby" />
+          </section>
+          <section class="phone-and-password gap-4 d-flex flex-column">
+            <div class="fw-normal fs-6 border-0">
+              <input
+                class="password bg-white-color opacity-50"
+                type="text"
+                id="username"
+                name="username"
+                placeholder="Phone Number or Email"
+              />
+            </div>
+
+            <div class="fw-normal fs-6 border-0">
+              <input
+                class="password bg-white-color opacity-50"
+                type="password"
+                id="pass"
+                name="password"
+                minlength="8"
+                required
+                placeholder="Password"
+              />
+            </div>
+            <a href="http://127.0.0.1:5500/main.html" class="nav-link">
+              <input
+                class="sign-in-btn rounded-5 bg-green text-color-white d-flex flex-row justify-content-center align-items-center border-0 mt-2"
+                type="submit"
+                value="Sign in"
+            /></a>
+          </section>
+          <section class="sign-in-with-other-apps">
+            <p class="or-sign-in-with color-gray-4 fw-normal lh-base mt-3 mb-2">
+              Or sign in with
+            </p>
+            <img
+              class="apps-pic mb-160"
+              src="./images/Frame 3708.svg"
+              alt="apps"
+            />
+          </section>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

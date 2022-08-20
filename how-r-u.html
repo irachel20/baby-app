@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width,
+    initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="./fontsSans/Noto_Sans.zip" />
+    <link rel="stylesheet" href="./styles/resetutils.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./bootstrap.css" />
+    <title>BabyApp</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row px-3">
+        <div class="col-12 px-0">
+          <section class="how-are-u d-flex mt-4 justify-content-start gap-5">
+            <a href="http://127.0.0.1:5500/main.html">
+              <img
+              src="./images/leftarrow.png"
+              width="24px"
+              height="24px"
+              alt="arrow"
+            />
+            </a>
+            <h5 class="blue-color ps-5 fw-500">How you are</h5>
+          </section>
+          <section
+            class="symptoms d-flex mt-3 justify-content-around align-items-center border-btm-1"
+          >
+            <div class="card w-100 h-mx-content border-0 rounded-0 rounded-top">
+              <div class="card-body">
+                <h6 class="fs-0 darker-blue-color">Symptom</h6>
+                <input
+                  type="text"
+                  class="body-tells border-blue w-100 p-2 rounded-1 d-flex h-mx-content"
+                  placeholder="What’s your body telling you?"
+                />
+                <h6 class="fs-0 fw-500 mt-3 mb-2">Recent</h6>
+                <div class="gap-2 d-flex fs-00 flex-wrap">
+                  <a
+                    class="nothing mb-2 text-decoration-none bg-white py-1 px-3 rounded-5 color-gray-3"
+                  >
+                    nothing
+                  </a>
+                  <a
+                    class="nothing mb-2 text-decoration-none bg-white py-1 px-3 rounded-5 color-gray-3"
+                  >
+                    fatisue / exhaustion
+                  </a>
+                  <a
+                    class="darker-blue-color mb-2 text-decoration-none border-0 py-1 px-2 rounded-5 bg-lighter-blue-color d-flex align-items-center gap-1"
+                  >
+                    dizziness
+                    <img src="./images/checkmark.svg" alt="check" />
+                  </a>
+                  <a
+                    class="darker-blue-color mb-2 text-decoration-none border-0 py-1 px-2 rounded-5 bg-lighter-blue-color d-flex align-items-center gap-1"
+                  >
+                    morning sickness / nausea
+                    <img src="./images/checkmark.svg" alt="check" />
+                  </a>
+                  <a
+                    class="nothing bg-white mb-2 text-decoration-none py-1 px-3 rounded-5 color-gray-3"
+                  >
+                    shortness of breath
+                  </a>
+                  <a
+                    class="nothing bg-white text-decoration-none mb-3 py-1 px-3 rounded-5 color-gray-3"
+                  >
+                    acen
+                  </a>
+                </div>
+                <h6 class="fs-0 fw-500 mb-2">Selected</h6>
+                <div class="buttons gap-2 d-flex fs-00 flex-wrap">
+                  <a
+                    class="darker-blue-color mb-3 text-decoration-none border-1 border-blue py-1 px-2 rounded-5 bg-white d-flex align-items-center gap-1"
+                  >
+                    dizziness
+                    <img src="./images/x.svg" alt="check" />
+                  </a>
+                  <a
+                    class="darker-blue-color mb-3 text-decoration-none border-blue py-1 px-2 rounded-5 bg-white d-flex align-items-center gap-1"
+                  >
+                    morning sickness / nausea
+                    <img src="./images/x.svg" alt="check" />
+                  </a>
+                </div>
+                <h6 class="fs-0 lighter-pink-color mt-3">Medications</h6>
+                <input
+                  type="text"
+                  class="what-did-u-take border-pink w-100 p-2 rounded-1 d-flex h-mx-content"
+                  placeholder="What did you take?"
+                />
+                <h6 class="fs-0 fw-500 mt-3 mb-2">Recent</h6>
+                <div class="gap-2 d-flex fs-00 flex-wrap">
+                  <a
+                    class="lighter-pink-color mb-2 text-decoration-none border-0 py-1 px-2 rounded-5 bg-lighter-pink-color d-flex align-items-center gap-1"
+                  >
+                    Benadryl
+                    <img src="./images/checkpink.svg" alt="check" />
+                  </a>
+                  <a
+                    class="nothing mb-2 text-decoration-none bg-white py-1 px-3 rounded-5 color-gray-3"
+                  >
+                    Tylenol
+                  </a>
+                  <a
+                    class="nothing mb-2 text-decoration-none bg-white py-1 px-3 rounded-5 color-gray-3"
+                  >
+                    Endometrin
+                  </a>
+                  <a
+                    class="nothing mb-2 text-decoration-none bg-white py-1 px-3 rounded-5 color-gray-3"
+                  >
+                    Claritin
+                  </a>
+                </div>
+                <h6 class="fs-0 fw-500 mt-3 mb-2">Selected</h6>
+                <div class="buttons gap-2 d-flex fs-00 flex-wrap">
+                  <a
+                    class="lighter-pink-color mb-3 text-decoration-none border-1 border-pink py-1 px-2 rounded-5 bg-white d-flex align-items-center gap-1"
+                  >
+                    Benadryl
+                    <img src="./images/xpink.svg" alt="x" />
+                  </a>
+                </div>
+                <h6 class="dark-green-blue-color fs-0 fw-500 mt-3 mb-2">
+                  Mood
+                </h6>
+                <input
+                  type="text"
+                  class="feel border-dark-green-blue w-100 p-2 rounded-1 d-flex h-mx-content"
+                  placeholder="I feel..."
+                />
+                <h6 class="fs-0 fw-500 mt-3 mb-2">Recent</h6>
+                <div class="gap-2 d-flex fs-00 flex-wrap">
+                  <a
+                    class="dark-green-blue-color mb-2 text-decoration-none border-0 py-1 px-2 rounded-5 bg-lighter-green-blue-color d-flex align-items-center gap-1"
+                  >
+                    calm
+                    <img src="./images/checkdark-greenblue.svg" alt="check" />
+                  </a>
+                  <a
+                    class="dark-green-blue-color mb-2 text-decoration-none border-0 py-1 px-2 rounded-5 bg-lighter-green-blue-color d-flex align-items-center gap-1"
+                  >
+                    moody
+                    <img src="./images/checkdark-greenblue.svg" alt="check" />
+                  </a>
+                  <a
+                    class="nothing mb-2 text-decoration-none bg-white py-1 px-3 rounded-5 color-gray-3"
+                  >
+                    in love
+                  </a>
+                  <a
+                    class="nothing mb-2 text-decoration-none bg-white py-1 px-3 rounded-5 color-gray-3"
+                  >
+                    weepy
+                  </a>
+
+                  <a
+                    class="nothing bg-white mb-2 text-decoration-none py-1 px-3 rounded-5 color-gray-3"
+                  >
+                    worried
+                  </a>
+                  <a
+                    class="nothing bg-white mb-2 text-decoration-none py-1 px-3 rounded-5 color-gray-3"
+                  >
+                    angry
+                  </a>
+                  <a
+                    class="nothing bg-white mb-2 text-decoration-none py-1 px-3 rounded-5 color-gray-3"
+                  >
+                    overwhelmed
+                  </a>
+                </div>
+                <h6 class="fs-0 fw-500 mt-3 mb-2">Selected</h6>
+                <div class="buttons gap-2 d-flex fs-00 flex-wrap">
+                  <a
+                    class="lighter-green-blue-color mb-3 text-decoration-none border-1 border-dark-green-blue py-1 px-2 rounded-5 bg-white d-flex align-items-center gap-1"
+                  >
+                    moody
+                    <img src="./images/x-green-blue.svg" alt="check" />
+                  </a>
+                  <a
+                    class="lighter-green-blue-color mb-3 text-decoration-none border-dark-green-blue py-1 px-2 rounded-5 bg-white d-flex align-items-center gap-1"
+                  >
+                    calm
+                    <img src="./images/x-green-blue.svg" alt="check" />
+                  </a>
+                </div>
+
+                <h6 class="fs-0 fw-500 mt-3 mb-2 green-color">Cycle length</h6>
+                <input
+                  type="text"
+                  class="green-calender border-green w-100 p-2 px-3 rounded-1 d-flex h-mx-content"
+                  placeholder="24 Days"
+                />
+
+                <h6 class="fs-0 fw-500 mt-3 mb-2 greenblue-color">Sleep</h6>
+                <input
+                  type="text"
+                  class="greenblue-calender border-greenblue-color w-100 p-2 px-3 rounded-1 d-flex h-mx-content"
+                  placeholder="8.20 hrs"
+                />
+
+                <h6 class="fs-0 fw-500 mt-3 mb-2 red-color">Temprature</h6>
+                <input
+                  type="text"
+                  class="red-calender border-red-color w-100 p-2 px-3 rounded-1 d-flex h-mx-content"
+                  placeholder="94.34"
+                />
+
+                <h6 class="fs-0 fw-500 mt-3 mb-2 color-gray-special">Weight</h6>
+                <input
+                  type="text"
+                  class="gray-calender mb-4 border-gray-special w-100 p-2 px-3 rounded-1 d-flex h-mx-content"
+                  placeholder="71.54"
+                />
+              </div>
+            </div>
+          </section>
+          <section class="buttons-ok-cncl d-flex justify-content-end gap-1 align-items-center mt-4 mb-4">
+            <a
+              class="green-color text-decoration-none border-green fs-00 bg-transparent py-1 px-4 rounded-5 "
+            >
+            Cancel
+            </a>
+            <a
+              class="text-light text-decoration-none py-1 px-4 border-green rounded-5 bg-green fs-00 d-flex align-items-center gap-1"
+            >
+            OK
+            </a>
+          </section>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
